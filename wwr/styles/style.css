@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Inter&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #2F2FA7   ;
+  --secondary-color: #4B83C2 ;
+  --accent1-color: #F09D51;
+  --accent2-color: white;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: 'Bungee Spice';
+  --paragraph-font: 'Inter';
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #000001;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #000001; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #000001;
+  --nav-link-color: white;
+  --nav-background-color: #2F2FA7;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #F09D51;  
+}
+
+
+
+#content {
+
+    max-width:1600px;
+    margin: 0 auto;
+}
+
+nav a {
+
+    text-align:center;
+    color:var(--accent2-color);
+    text-decoration:none;
+}
+
+#hero-msg h1, #hero-msg h4 {
+
+    text-align:center;
+
+}
+
+.button-box {
+
+    text-align:center;
+
+}
+
+main section {
+
+    text-align:center;
+
+}
+
+#background{
+
+    height:725px;
+    background-color:var(--accent1-color);
+
+}
+
+body {
+
+    margin:0;
+    background-color:var(--accent2-color);
+
+}
+
+header {
+
+    background-color:black;
+
+}
+
+nav a:hover {
+
+    background-color:var(--accent1-color);
+    color:black;
+}
+
+.book, .join {
+
+    background-color:var(--secondary-color);
+    color:black;
+    text-decoration:none;
+}
+
+.book:hover, .join:hover {
+
+    background-color:var(--accent1-color);
+    color:var(--accent2-color);
+}
+
+.msg {
+
+    background-color:black;
+
+}
+
+footer {
+
+    background-color:var(--accent1-color);
+    color:var(--accent2-color);
+}
+
+.home-title {
+
+    color:var(--accent1-color);
+
+}
+
+h4 {
+
+    color:var(--accent1-color);
+
+}
+
+.msg h2 {
+
+    color:var(--accent2-color);
+
+}
+
+.msg p {
+
+    color:var(--accent2-color);
+
+}
+
+footer a {
+
+    color:var(--accent2-color);
+    text-decoration:none;
+
+}
+
+footer a:hover {
+
+    color:var(--secondary-color);
+    
+}
+
+.logo {
+
+    width:80px;
+
+}
+
+.icon {
+
+    width:80px;
+
+}
+
+#hero-img {
+
+    width:100;
+
+}
+
+footer p {
+
+    font-size:1.2em;
+
+}
+
+footer p a:hover {
+
+    text-decoration:underline;
+
+}
