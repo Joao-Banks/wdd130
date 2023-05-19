@@ -3,3 +3,41 @@ body {
 background-color: pink;
 
 }
+
+header h1 {
+
+    text-align:center;
+
+}
+
+#quote {
+
+    text-align:center;
+
+}
+
+#articles_of_faith {
+
+    text-align:center;
+    margin:5.em;
+
+}
+
+#big_quote {
+
+    text-align:center;
+
+}
+
+footer h5 {
+
+    text-align:center;
+
+}
+
+#prophet {
+
+    box-sizing:border-box;
+
+}
+
