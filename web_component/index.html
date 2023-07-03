@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="styles/practice_styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Component</title>
+    <script src="functions.js" defer></script>
+</head>
+<body>
+    
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')">Happiness</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Serenity</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Wisdom</button>
+      </div>
+      
+      
+      <div id="London" class="tabcontent">
+        <h3>Happiness</h3>
+        <p>Comes from within, despite the circumstances of our lives.</p>
+      </div>
+      
+      <div id="Paris" class="tabcontent">
+        <h3>Serenity</h3>
+        <p>Fruit of Men's genuine connection with nature. The very ability to adore and revere the gift of life.</p>
+      </div>
+      
+      <div id="Tokyo" class="tabcontent">
+        <h3>Wisdom</h3>
+        <p>The growth obtained through observance of the laws of life.</p>
+      </div>
+      
+      <div id="London" class="tabcontent">
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+        <span onclick="this.parentElement.style.display='none'">x</span>
+      </div>
+
+</body>
+</html>
